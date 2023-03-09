@@ -1,0 +1,156 @@
+---
+title: "WNV Africa-Europe"
+author: "Andrea Silverj"
+date: '2023-02-01'
+output: html_document
+---
+
+# -----[Data analysis and visualisation]-----
+
+Set working directory and load libraries:
+```{r message=FALSE, warning=FALSE}
+setwd("your_WD")
+library("ggplot2")
+library("tidyverse")
+library("ggtree")
+library("ips")
+library("treeio")
+library("tidytree")
+library("ggimage")
+library("ggnewscale")
+library("phytools")
+library("phangorn")
+library("writexl")
+library("readxl")
+library("extrafont")
+library("TDbook")
+library("grid")
+library("gridExtra")
+library("cowplot")
+
+```
+
+#########
+# Trees #
+
+# Figure 1b - Bayesian molecular clock of WNV L1
+```{r}
+# Load tree file and save information as a data frame
+wnvtreeL1_bay <- read.beast("clock_wnv_L1_Afr-Eur_trimmed_tips_location_gamma4_relaxed_logN_cconst_500m.tre")
+wnvtreeL1_bay_tib <- as_tibble(wnvtreeL1_bay)
+wnvtreeL1_bay_df <- as.data.frame(wnvtreeL1_bay_tib)
+
+# Extract infos from header
+wnvtreeL1_bay_df_annp1 <- wnvtreeL1_bay_df %>% separate(label, into=c("id","place","date"), sep="[|]", remove=FALSE)
+
+# Add node shapes and colours based on posterior supports
+wnvtreeL1_bay_df_ann <- wnvtreeL1_bay_df_annp1 %>% mutate(posteriorsupport=ifelse(posterior >= 0.6, "high", "low"))
+
+# Set colours
+colour_region=c(low="#FFC300", high="transparent")
+
+# Plot the tree
+wnvL1_tree_plot <- ggtree(wnvtreeL1_bay, size=1.1,  mrsd="2022-10-03")+
+  aes(color=wnvtreeL1_bay_df_ann$place)+
+  theme_tree2(axis.line.x = element_line(size=1.1), 
+  axis.ticks.x = element_line(size=1.1), axis.text.x = element_text(size=9))+
+  theme(legend.position="top")+
+  ggtitle("WNV-L1 timetree")+
+  
+  geom_range(range='height_0.95_HPD', color='#1820E4', alpha=.5, size=1.2, linetype=1, center="height_median")+
+  geom_nodepoint(aes(color=wnvtreeL1_bay_df_ann$posteriorsupport), size=2.2)+scale_x_continuous(breaks = c(1850,1860,1870,1880,1890,1900,1910,1920,1930,1940,1950,1960,1970,1980,1990,2000,2010,2020))+
+  geom_tiplab(size=2.5, offset=0.5)+
+  labs(color="Posterior:")+
+  scale_color_manual(values=colour_region, na.value="#000000")
+
+# Save
+ggsave("clock_L1-Afr-Eur_cc.pdf", width = 25, height = 28, units = "cm", limitsize = FALSE)
+
+```
+
+# Figure 1a - Phylogeography legend
+```{r}
+# Plot the legend to an empty plot, using data from the Spread3 plot
+# Areas
+legwnv1areasP <- wnvtreeL1_bay_df_ann %>% ggplot(aes(location1, location2)) + 
+  geom_point(aes(colour = height_median), size = 3) +
+  scale_color_gradient(high = "white", low = "black", limits = c(79.2,0.4), trans = 'reverse')+
+    theme(legend.position="top")
+legwnv1areas <- get_legend(legwnv1areasP)
+remove(legwnv1areasP)
+grid.newpage()                              
+grid.draw(legwnv1areas)
+ggsave("clock_L1-Afr-Eur_cc_legend_areas.pdf", width = 25, height = 28, units = "cm", limitsize = FALSE)
+
+# Points
+legwnv1pointsP <- wnvtreeL1_bay_df_ann %>% ggplot(aes(location1, location2)) + 
+  geom_point(aes(colour = height), size = 3) +
+  scale_color_gradient(low = "#A50026", high = "white", limits = c(121.4, 0.0), trans = 'reverse')+
+    theme(legend.position="top")
+legwnv1points <- get_legend(legwnv1pointsP)
+grid.newpage()                              
+grid.draw(legwnv1points)
+ggsave("clock_L1-Afr-Eur_cc_legend_points.pdf", width = 25, height = 28, units = "cm", limitsize = FALSE)
+
+```
+
+# Figure 2b - Bayesian molecular clock of WNV L2
+```{r}
+# Load tree file and save information as a data frame
+wnvtreeL2_bay <- read.beast("clock_wnv_L2_Afr-Eur_trimmed_tips_location_gamma4_relaxed_logN_cconst_600m.tre")
+wnvtreeL2_bay_tib <- as_tibble(wnvtreeL2_bay)
+wnvtreeL2_bay_df <- as.data.frame(wnvtreeL2_bay_tib)
+
+# Extract infos from header
+wnvtreeL2_bay_df_annp1 <- wnvtreeL2_bay_df %>% separate(label, into=c("id","place","date"), sep="[|]", remove=FALSE)
+
+# Add node shapes and colours based on posterior supports
+wnvtreeL2_bay_df_ann <- wnvtreeL2_bay_df_annp1 %>% mutate(posteriorsupport=ifelse(posterior >= 0.6, "high", "low"))
+
+# Set colours
+colour_region=c(low="#FFC300", high="transparent")
+
+# Plot the tree
+wnvL2_tree_plot <- ggtree(wnvtreeL2_bay, size=1.1,  mrsd="2022-11-18")+
+  aes(color=wnvtreeL2_bay_df_ann$place)+
+  theme_tree2(axis.line.x = element_line(size=1.1), 
+  axis.ticks.x = element_line(size=1.1), axis.text.x = element_text(size=9))+
+  theme(legend.position="top")+
+  ggtitle("WNV-L2 timetree")+
+  geom_range(range='height_0.95_HPD', color='#1820E4', alpha=.5, size=1.2, linetype=1, center="height_median")+
+  geom_nodepoint(aes(color=wnvtreeL2_bay_df_ann$posteriorsupport), size=2.2)+
+  scale_x_continuous(breaks = c(1590,1850,1860,1870,1880,1890,1900,1910,1920,1930,1940,1950,1960,1970,1980,1990,2000,2010,2020))+
+  geom_tiplab(size=2.5, offset=0.5)+
+  labs(color="Posterior:")+
+  scale_color_manual(values=colour_region, na.value="#000000")
+
+# Save
+ggsave("clock_L2-Afr-Eur_cc.pdf", width = 40, height = 25, units = "cm", limitsize = FALSE)
+
+```
+
+# Figure 1a - Phylogeography legend L2
+```{r}
+# Plot the legend to an empty plot, using data from the Spread3 plot
+# Areas
+legwnv1areasP <- wnvtreeL2_bay_df_ann %>% ggplot(aes(location1, location2)) + 
+  geom_point(aes(colour = height_median), size = 3) +
+  scale_color_gradient(high = "white", low = "black", limits = c(166.2,2.2), trans = 'reverse')+
+    theme(legend.position="top")
+legwnv1areas <- get_legend(legwnv1areasP)
+remove(legwnv1areasP)
+grid.newpage()                              
+grid.draw(legwnv1areas)
+ggsave("clock_L1-Afr-Eur_cc_legend_areas.pdf", width = 25, height = 28, units = "cm", limitsize = FALSE)
+
+# Points
+legwnv1pointsP <- wnvtreeL2_bay_df_ann %>% ggplot(aes(location1, location2)) + 
+  geom_point(aes(colour = height), size = 3) +
+  scale_color_gradient(low = "#A50026", high = "white", limits = c(288.5, 0.0), trans = 'reverse')+
+    theme(legend.position="top")
+legwnv1points <- get_legend(legwnv1pointsP)
+grid.newpage()                              
+grid.draw(legwnv1points)
+ggsave("clock_L1-Afr-Eur_cc_legend_points.pdf", width = 25, height = 28, units = "cm", limitsize = FALSE)
+
+```

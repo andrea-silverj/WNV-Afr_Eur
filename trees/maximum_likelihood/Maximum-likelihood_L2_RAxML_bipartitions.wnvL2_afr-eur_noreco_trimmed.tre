@@ -1,0 +1,399 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=297;
+	taxlabels
+	'DQ176636.2|Madagascar|1978/08/31'
+	'DQ318020.1|Central_African_Republic|1993/01/01'
+	'EF429197.1|South_Africa|1989/08/31'
+	'EF429198.1|South_Africa|2001/08/31'
+	'EF429200.1|South_Africa|1958/08/31'
+	'FJ425721.1|Russia|2007/08/31'
+	'GQ903680.1|Cyprus|1968/08/31'
+	'HM147822.1|South_Africa|1958/08/31'
+	'HM147823.1|Madagascar|1988/08/31'
+	'HM147824.1|Democratic_Republic_of_the_Congo|1958/08/31'
+	'HQ537483.1|Greece|2010/08/31'
+	'JN393308.1|South_Africa|2008/04/15'
+	'JN858070.1|Italy|2011/09/15'
+	'JX041631.1|Ukraine|1980/08/31'
+	'KC407673.1|Serbia|2012/08/31'
+	'KC496015.1|Hungary|2010/08/31'
+	'KC496016.1|Serbia|2010/08/31'
+	'KF179639.1|Greece|2012/09/15'
+	'KF179640.1|Austria|2008/08/31'
+	'KF588365.1|Italy|2013/08/15'
+	'KF647248.1|Italy|2013/08/15'
+	'KF647249.1|Italy|2013/08/15'
+	'KF647250.1|Italy|2013/08/15'
+	'KF647251.1|Italy|2013/08/15'
+	'KF647252.1|Italy|2013/08/15'
+	'KF823805.1|Italy|2013/08/15'
+	'KF823806.1|Italy|2013/10/15'
+	'KJ883342.1|Greece|2013/08/31'
+	'KJ883343.1|Greece|2013/08/31'
+	'KJ883345.1|Greece|2013/08/31'
+	'KJ883348.1|Greece|2013/08/31'
+	'KJ883350.1|Greece|2013/08/31'
+	'KJ934710.1|Romania|2013/08/27'
+	'KM052152.1|South_Africa|1977/08/31'
+	'KM203860.1|Czech_Republic|2013/08/08'
+	'KM203861.1|Czech_Republic|2013/08/08'
+	'KM203862.1|Czech_Republic|2013/08/08'
+	'KM203863.1|Czech_Republic|2013/08/08'
+	'KM659876.1|Austria|2014/08/31'
+	'KP109691.1|Austria|2014/08/31'
+	'KP109692.1|Austria|2014/08/31'
+	'KP780837.1|Austria|2008/08/29'
+	'KP780838.1|Austria|2009/09/16'
+	'KP780839.1|Austria|2011/03/14'
+	'KP780840.1|Austria|2014/08/21'
+	'KP789953.1|Italy|2014/08/31'
+	'KP789954.1|Italy|2014/08/31'
+	'KP789955.1|Italy|2014/08/31'
+	'KP789956.1|Italy|2014/08/31'
+	'KP789957.1|Italy|2014/08/31'
+	'KP789958.1|Italy|2014/08/31'
+	'KP789959.1|Italy|2014/08/31'
+	'KP789960.1|Italy|2013/08/31'
+	'KT207791.1|Italy|2014/07/15'
+	'KT207792.1|Italy|2014/08/18'
+	'KT359349.1|Hungary|2014/08/31'
+	'KT757318.1|Serbia|2013/08/31'
+	'KU206781.1|Bulgaria|2015/08/27'
+	'KU573080.1|Italy|2013/08/31'
+	'KU573081.1|Italy|2013/08/31'
+	'KU573082.1|Italy|2013/08/31'
+	'KU573083.1|Italy|2013/08/31'
+	'KU978767.1|Madagascar|1988/02/12'
+	'KY523178.1|Uganda|2009/06/15'
+	'KY594040.1|Greece|2010/08/31'
+	'LR743421.1|Germany|2019/08/30'
+	'LR743422.1|Germany|2019/08/26'
+	'LR743424.1|Germany|2019/08/04'
+	'LR743426.1|Germany|2019/08/31'
+	'LR743430.1|Germany|2019/08/08'
+	'LR743434.1|Germany|2018/09/03'
+	'LR743435.1|Germany|2019/08/20'
+	'LR743437.1|Germany|2018/08/31'
+	'LR743442.1|Germany|2019/08/08'
+	'LR743446.1|Germany|2019/08/19'
+	'LR743453.1|Germany|2019/08/14'
+	'LR989888.1|Germany|2019/08/31'
+	'MF984337.1|Austria|2015/08/31'
+	'MF984340.1|Austria|2015/08/31'
+	'MF984341.1|Austria|2015/08/31'
+	'MF984342.1|Austria|2015/08/31'
+	'MF984343.1|Austria|2015/08/31'
+	'MF984344.1|Austria|2015/08/31'
+	'MF984345.1|Austria|2015/08/31'
+	'MF984346.1|Austria|2016/08/31'
+	'MF984347.1|Austria|2016/08/31'
+	'MF984348.1|Austria|2016/08/31'
+	'MF984350.1|Austria|2016/08/31'
+	'MF984351.1|Austria|2016/08/31'
+	'MF984352.1|Austria|2016/08/31'
+	'MH021189.1|Belgium|2017/10/15'
+	'MH244510.1|Slovakia|2014/08/31'
+	'MH244512.1|Slovakia|2013/08/31'
+	'MH244513.1|Slovakia|2013/08/31'
+	'MH549209.1|Greece|2017/07/15'
+	'MH910045.1|Germany|2018/08/15'
+	'MH924836.1|Germany|2018/08/22'
+	'MH939153.1|Romania|2014/08/31'
+	'MK473443.1|Greece|2017/07/15'
+	'MK947397.1|Slovenia|2018/08/23'
+	'MN238669.1|Iran|2017/08/31'
+	'MN238670.1|Iran|2018/08/31'
+	'MN480792.1|Greece|2018/08/15'
+	'MN480795.1|Greece|2018/08/15'
+	'MN481592.1|Greece|2012/08/02'
+	'MN481593.1|Greece|2012/08/22'
+	'MN481594.1|Greece|2012/09/05'
+	'MN481595.1|Greece|2010/09/30'
+	'MN481597.1|Greece|2012/08/27'
+	'MN619801.1|Russia|2018/08/31'
+	'MN619802.1|Russia|2018/08/31'
+	'MN619803.1|Russia|2018/08/31'
+	'MN794935.1|Germany|2019/08/31'
+	'MN794937.1|Germany|2019/08/31'
+	'MN794938.1|Germany|2019/08/31'
+	'MN794939.1|Germany|2019/08/31'
+	'MN812757.1|Russia|2018/08/31'
+	'MN812758.1|Russia|2018/08/31'
+	'MN812759.1|Russia|2018/08/31'
+	'MN939557.1|Italy|2018/08/31'
+	'MN939558.1|Italy|2016/08/31'
+	'MN939559.1|Italy|2016/08/31'
+	'MN939560.1|Italy|2016/08/31'
+	'MN939561.1|Italy|2018/08/31'
+	'MN939562.1|Italy|2018/08/31'
+	'MN939563.1|Italy|2018/08/31'
+	'MN939564.1|Italy|2016/08/31'
+	'MT341472.1|Bulgaria|2018/08/15'
+	'MT863560.1|France|2018/09/08'
+	'MT863561.1|France|2018/10/06'
+	'MW036633.1|Netherlands|2020/09/15'
+	'MW036634.1|Netherlands|2020/08/15'
+	'MW142223.1|Germany|2020/08/15'
+	'MW142224.1|Germany|2020/08/15'
+	'MW142225.1|Germany|2020/08/15'
+	'MW142226.1|Germany|2020/08/15'
+	'MW142227.1|Germany|2020/08/15'
+	'MW383507.1|Namibia|2020/08/31'
+	'MW383508.1|Namibia|2020/08/31'
+	'MW561633.1|Slovakia|2018/11/16'
+	'MW751834.1|Serbia|2018/07/12'
+	'MW751835.1|Serbia|2018/08/28'
+	'MW751836.1|Serbia|2015/08/10'
+	'MW751837.1|Serbia|2018/06/25'
+	'MW751838.1|Serbia|2018/10/16'
+	'MW751839.1|Serbia|2020/09/15'
+	'MW751840.1|Serbia|2020/09/15'
+	'MW751841.1|Serbia|2018/07/24'
+	'MW751842.1|Serbia|2018/07/12'
+	'MW751843.1|Serbia|2018/07/26'
+	'MW751844.1|Serbia|2018/07/12'
+	'MW751845.1|Serbia|2018/07/12'
+	'MW751846.1|Serbia|2018/07/12'
+	'MW862073|Italy|2012/08/24'
+	'MW862074|Italy|2013/09/30'
+	'MW862075|Italy|2015/08/05'
+	'MW862076|Italy|2015/08/13'
+	'MW862077|Italy|2015/08/05'
+	'MW862078|Italy|2015/08/05'
+	'MW862079|Italy|2015/08/06'
+	'MW862080|Italy|2015/09/23'
+	'MW862081|Italy|2015/08/12'
+	'MW862082|Italy|2015/09/07'
+	'MW862083|Italy|2015/11/02'
+	'MW862084|Italy|2015/08/12'
+	'MW862085|Italy|2015/08/12'
+	'MW862086|Italy|2016/09/28'
+	'MW862087|Italy|2017/11/02'
+	'MW862088|Italy|2017/08/07'
+	'MW862089|Italy|2017/08/22'
+	'MW862090|Italy|2018/07/24'
+	'MW862091|Italy|2018/07/31'
+	'MW862092|Italy|2018/08/13'
+	'MW862093|Italy|2018/09/08'
+	'MW862094|Italy|2019/07/15'
+	'MW862095|Italy|2019/09/19'
+	'MW862096|Italy|2018/08/31'
+	'MW862097|Italy|2018/09/05'
+	'MW862098|Italy|2018/10/13'
+	'MW862099|Italy|2018/10/06'
+	'MW862100|Italy|2018/10/02'
+	'MW862101|Italy|2019/07/15'
+	'MW862102|Italy|2019/10/23'
+	'MW862103|Italy|2019/09/12'
+	'MW862104|Italy|2019/09/26'
+	'MW862105|Italy|2019/10/10'
+	'MW862106|Italy|2019/09/26'
+	'MW862107|Italy|2019/08/26'
+	'MW862108|Italy|2020/08/24'
+	'MZ190464.1|Kosovo|2018/09/15'
+	'MZ190465.1|Kosovo|2018/09/15'
+	'MZ190466.1|Kosovo|2018/09/15'
+	'MZ190467.1|Kosovo|2018/09/15'
+	'MZ268007.1|Netherlands|2020/09/15'
+	'MZ605382.4|Hungary|2004/08/31'
+	'MZ964751.1|Germany|2021/08/15'
+	'MZ964752.1|Germany|2021/08/15'
+	'MZ964753.1|Germany|2021/08/15'
+	'OK129329.1|Hungary|2016/08/31'
+	'OK129330.1|Hungary|2016/08/31'
+	'OK129331.1|Hungary|2015/08/31'
+	'OK129332.1|Hungary|2015/08/31'
+	'OK129333.1|Hungary|2017/08/31'
+	'OK129334.1|Hungary|2017/08/31'
+	'OK129335.1|Hungary|2017/08/31'
+	'OK129336.1|Hungary|2017/08/31'
+	'OK239658.1|Hungary|2018/08/31'
+	'OK239659.1|Hungary|2018/08/31'
+	'OK239660.1|Hungary|2018/08/31'
+	'OK239661.1|Hungary|2018/08/31'
+	'OK239662.1|Hungary|2018/08/31'
+	'OK239663.1|Hungary|2018/08/31'
+	'OK239664.1|Hungary|2018/08/31'
+	'OK239665.1|Hungary|2018/08/31'
+	'OK239666.1|Hungary|2018/08/31'
+	'OK239668.1|Hungary|2018/08/31'
+	'OK239669.1|Hungary|2017/08/31'
+	'OK239670.1|Hungary|2018/08/31'
+	'OK239671.1|Hungary|2018/08/31'
+	'OK239672.1|Hungary|2018/08/31'
+	'OL840871.1|Greece|2018/08/15'
+	'OL840872.1|Greece|2018/08/15'
+	'OL840873.1|Greece|2018/09/15'
+	'OL840874.1|Greece|2019/07/15'
+	'OL840875.1|Greece|2019/08/15'
+	'OL840876.1|Greece|2019/08/15'
+	'OL840877.1|Greece|2019/08/15'
+	'OL840878.1|Greece|2019/08/15'
+	'OL840879.1|Greece|2019/08/15'
+	'OL840880.1|Greece|2020/07/15'
+	'OL840881.1|Greece|2020/08/15'
+	'OL840882.1|Greece|2020/09/15'
+	'OL840883.1|Greece|2019/07/15'
+	'OL840884.1|Greece|2019/07/15'
+	'OL840885.1|Greece|2019/08/15'
+	'OL840886.1|Greece|2020/08/15'
+	'OL840887.1|Greece|2020/07/15'
+	'OL840888.1|Greece|2020/07/15'
+	'OL840889.1|Greece|2020/08/15'
+	'OL840890.1|Greece|2020/08/15'
+	'OL840891.1|Greece|2020/08/15'
+	'OL840892.1|Greece|2020/08/15'
+	'OL840893.1|Greece|2020/07/15'
+	'OL840894.1|Greece|2021/08/15'
+	'OL840895.1|Greece|2021/08/15'
+	'OL840896.1|Greece|2021/08/15'
+	'OL840897.1|Greece|2021/08/15'
+	'OL840898.1|Greece|2021/08/15'
+	'OL840899.1|Greece|2021/08/15'
+	'OM037670.1|Spain|2017/09/15'
+	'OM037671.1|Spain|2020/09/15'
+	'OM037672.1|Spain|2020/09/15'
+	'OM037673.1|Spain|2020/09/15'
+	'ON032488|Italy|2020/09/07'
+	'ON032489|Italy|2020/09/01'
+	'ON032490|Italy|2021/08/19'
+	'ON032491|Italy|2021/08/18'
+	'ON032492|Italy|2021/08/26'
+	'ON032493|Italy|2021/08/31'
+	'ON032494|Italy|2021/09/10'
+	'ON032495|Italy|2021/09/16'
+	'ON032497|Italy|2021/08/04'
+	'ON755223.1|Netherlands|2020/10/18'
+	'ON813217|Senegal|2006/08/31'
+	'ON813218|Senegal|2006/08/31'
+	'ON813219|Senegal|2006/08/31'
+	'ON813230|Italy|2021/07/19'
+	'ON813231|Italy|2021/07/22'
+	'ON813232|Italy|2021/09/10'
+	'ON813233|Italy|2022/09/12'
+	'OP009516.1|Italy|2021/08/31'
+	'OP009517.1|Italy|2021/08/31'
+	'OP734238|Italy|2022/07/25'
+	'OP734239|Italy|2022/07/12'
+	'OP734240|Italy|2022/08/04'
+	'OP734241|Italy|2022/08/10'
+	'OP734242|Italy|2022/08/17'
+	'OP734243|Italy|2022/08/25'
+	'OP734244|Italy|2022/08/10'
+	'OP846976.1|Senegal|1989/08/31'
+	'OP850024|Italy|2022/08/04'
+	'OP850025|Italy|2022/08/24'
+	'OP850026|Italy|2022/09/01'
+	'OP850027|Italy|2021/08/10'
+	'OP850028|Italy|2021/08/20'
+	'OP850029|Italy|2022/10/24'
+	'OP870453.1|Senegal|1989/08/31'
+	'OP870454.1|Senegal|1989/08/31'
+	'OP870455.1|Senegal|1990/08/31'
+	'OP870456.1|Senegal|1989/08/31'
+	'OP870457.1|Senegal|1990/08/31'
+	'OP870458.1|Senegal|1990/08/31'
+	'OP870459.1|Senegal|1998/08/31'
+	'OP870460.1|Senegal|2003/08/31'
+	'OP870461.1|Senegal|2002/08/31'
+	'OQ204314|Italy|2022/11/18'
+	'OQ204315|Italy|2022/11/02'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (('MN238669.1|Iran|2017/08/31':0.004046,(('KT207791.1|Italy|2014/07/15':0.005965,('OK239669.1|Hungary|2017/08/31':0.005052,('KJ934710.1|Romania|2013/08/27':5.56E-4,'MH939153.1|Romania|2014/08/31':0.002607)[&label=50]:4.0E-6)[&label=100]:0.002488)[&label=99]:0.002697,('FJ425721.1|Russia|2007/08/31':6.58E-4,('MN619802.1|Russia|2018/08/31':0.009243,(('MN619803.1|Russia|2018/08/31':4.0E-6,'MN812759.1|Russia|2018/08/31':1.85E-4)[&label=100]:7.42E-4,('MN812757.1|Russia|2018/08/31':5.56E-4,('MN619801.1|Russia|2018/08/31':0.020895,'MN812758.1|Russia|2018/08/31':3.71E-4)[&label=94]:1.85E-4)[&label=96]:5.56E-4)[&label=34]:4.0E-6)[&label=100]:0.006269)[&label=100]:0.004319)[&label=100]:0.007828)[&label=91]:5.66E-4,((((((((('KC496015.1|Hungary|2010/08/31':0.002981,((('KT757318.1|Serbia|2013/08/31':5.57E-4,('MZ190465.1|Kosovo|2018/09/15':0.002619,'KU206781.1|Bulgaria|2015/08/27':0.001677)[&label=100]:9.28E-4)[&label=100]:0.001683,('MW751836.1|Serbia|2015/08/10':3.55E-4,('MW751845.1|Serbia|2018/07/12':5.57E-4,('MW751839.1|Serbia|2020/09/15':1.83E-4,'MW751840.1|Serbia|2020/09/15':7.46E-4)[&label=100]:0.001493)[&label=100]:0.001696)[&label=100]:0.004523)[&label=78]:7.37E-4,(((('KY594040.1|Greece|2010/08/31':7.43E-4,'HQ537483.1|Greece|2010/08/31':1.85E-4)[&label=13]:4.0E-6,(('MN481597.1|Greece|2012/08/27':0.002183,(('MN481592.1|Greece|2012/08/02':3.72E-4,'MN481593.1|Greece|2012/08/22':0.001672)[&label=59]:7.95E-4,('KJ883350.1|Greece|2013/08/31':0.001885,'MN481594.1|Greece|2012/09/05':4.0E-6)[&label=100]:8.77E-4)[&label=48]:3.71E-4)[&label=76]:0.001168,'MN481595.1|Greece|2010/09/30':0.001114)[&label=54]:4.0E-6)[&label=58]:4.0E-6,('MK473443.1|Greece|2017/07/15':4.0E-6,'MH549209.1|Greece|2017/07/15':3.71E-4)[&label=100]:0.003165)[&label=59]:1.77E-4,('KF179639.1|Greece|2012/09/15':0.001497,('KJ883342.1|Greece|2013/08/31':3.76E-4,(('KJ883343.1|Greece|2013/08/31':9.29E-4,'KJ883348.1|Greece|2013/08/31':1.86E-4)[&label=66]:1.85E-4,'KJ883345.1|Greece|2013/08/31':1.85E-4)[&label=48]:4.0E-6)[&label=92]:3.62E-4)[&label=100]:0.004128)[&label=99]:0.001121)[&label=65]:4.0E-6)[&label=67]:1.83E-4,((('MT341472.1|Bulgaria|2018/08/15':0.002806,(('OL840879.1|Greece|2019/08/15':5.57E-4,('OL840875.1|Greece|2019/08/15':3.71E-4,'OL840876.1|Greece|2019/08/15':1.86E-4)[&label=80]:4.0E-6)[&label=100]:0.001677,('OL840892.1|Greece|2020/08/15':3.72E-4,('OL840883.1|Greece|2019/07/15':5.57E-4,((('OL840881.1|Greece|2020/08/15':4.0E-6,'OL840886.1|Greece|2020/08/15':4.0E-6)[&label=82]:1.86E-4,(('OL840889.1|Greece|2020/08/15':9.29E-4,'OL840893.1|Greece|2020/07/15':3.71E-4)[&label=46]:4.0E-6,('OL840890.1|Greece|2020/08/15':7.43E-4,('OL840887.1|Greece|2020/07/15':4.0E-6,'OL840888.1|Greece|2020/07/15':1.86E-4)[&label=78]:1.86E-4)[&label=10]:4.0E-6)[&label=12]:4.0E-6)[&label=95]:5.57E-4,(('OL840896.1|Greece|2021/08/15':0.001488,'OL840899.1|Greece|2021/08/15':0.001115)[&label=45]:4.0E-6,('OL840891.1|Greece|2020/08/15':5.56E-4,(('OL840895.1|Greece|2021/08/15':4.0E-6,'OL840894.1|Greece|2021/08/15':4.0E-6)[&label=100]:3.72E-4,('OL840871.1|Greece|2018/08/15':5.57E-4,('OL840897.1|Greece|2021/08/15':4.0E-6,'OL840898.1|Greece|2021/08/15':4.0E-6)[&label=95]:4.0E-6)[&label=98]:7.43E-4)[&label=86]:5.58E-4)[&label=47]:4.0E-6)[&label=79]:3.71E-4)[&label=26]:4.0E-6)[&label=71]:1.86E-4)[&label=99]:7.44E-4)[&label=99]:0.001117)[&label=96]:0.002242,('MW751838.1|Serbia|2018/10/16':0.004483,(((('MZ190467.1|Kosovo|2018/09/15':4.0E-6,('MZ190466.1|Kosovo|2018/09/15':0.001866,'MZ190464.1|Kosovo|2018/09/15':0.002239)[&label=64]:1.86E-4)[&label=100]:0.003763,'OL840877.1|Greece|2019/08/15':0.002417)[&label=78]:0.001678,'OK239672.1|Hungary|2018/08/31':0.001479)[&label=75]:5.68E-4,('OK239663.1|Hungary|2018/08/31':7.46E-4,'OK239661.1|Hungary|2018/08/31':1.83E-4)[&label=100]:0.003363)[&label=66]:1.86E-4)[&label=76]:7.43E-4)[&label=95]:5.62E-4,(('OQ204315|Italy|2022/11/02':0.007055,('OK239665.1|Hungary|2018/08/31':0.002421,('MH021189.1|Belgium|2017/10/15':0.001301,(('MW561633.1|Slovakia|2018/11/16':7.43E-4,('OK239658.1|Hungary|2018/08/31':4.0E-6,'OK239670.1|Hungary|2018/08/31':3.71E-4)[&label=77]:4.0E-6)[&label=94]:5.54E-4,((('MK947397.1|Slovenia|2018/08/23':9.29E-4,'MW751841.1|Serbia|2018/07/24':7.43E-4)[&label=10]:4.0E-6,(('MW751834.1|Serbia|2018/07/12':4.0E-6,'MW751843.1|Serbia|2018/07/26':4.0E-6)[&label=35]:4.0E-6,('OK239666.1|Hungary|2018/08/31':5.57E-4,'MW751844.1|Serbia|2018/07/12':1.86E-4)[&label=30]:4.0E-6)[&label=27]:4.0E-6)[&label=22]:4.0E-6,'MW751835.1|Serbia|2018/08/28':1.86E-4)[&label=100]:0.00224)[&label=100]:0.001493)[&label=56]:4.0E-6)[&label=94]:0.001)[&label=100]:0.001608,(('OL840884.1|Greece|2019/07/15':0.00186,('MN480795.1|Greece|2018/08/15':3.71E-4,'OL840880.1|Greece|2020/07/15':0.002418)[&label=12]:4.0E-6)[&label=65]:1.84E-4,(('OL840874.1|Greece|2019/07/15':3.7E-4,'OL840882.1|Greece|2020/09/15':0.002235)[&label=100]:0.001117,((('OL840878.1|Greece|2019/08/15':7.43E-4,'OL840885.1|Greece|2019/08/15':0.001302)[&label=92]:5.58E-4,('OL840873.1|Greece|2018/09/15':9.28E-4,'OL840872.1|Greece|2018/08/15':3.71E-4)[&label=30]:4.0E-6)[&label=59]:1.85E-4,'MN480792.1|Greece|2018/08/15':0.001301)[&label=12]:4.0E-6)[&label=45]:4.0E-6)[&label=100]:0.004108)[&label=97]:3.72E-4)[&label=100]:0.001119)[&label=100]:0.002427,(((('MH244513.1|Slovakia|2013/08/31':9.24E-4,'OK129333.1|Hungary|2017/08/31':0.002432)[&label=100]:0.002616,(('MF984345.1|Austria|2015/08/31':0.001489,'KM203860.1|Czech_Republic|2013/08/08':5.58E-4)[&label=99]:1.83E-4,(('ON755223.1|Netherlands|2020/10/18':0.001301,('MZ268007.1|Netherlands|2020/09/15':4.0E-6,('MW036633.1|Netherlands|2020/09/15':2.02E-4,'MW036634.1|Netherlands|2020/08/15':4.95E-4)[&label=90]:2.48E-4)[&label=77]:4.0E-6)[&label=100]:0.002045,('KM203863.1|Czech_Republic|2013/08/08':0.001301,('MF984351.1|Austria|2016/08/31':0.002983,('MF984350.1|Austria|2016/08/31':5.57E-4,('MF984343.1|Austria|2015/08/31':3.71E-4,'MF984352.1|Austria|2016/08/31':0.002045)[&label=42]:4.0E-6)[&label=90]:5.58E-4)[&label=54]:1.84E-4)[&label=11]:4.0E-6)[&label=100]:5.58E-4)[&label=100]:0.001489)[&label=28]:4.0E-6,((((((('MF984337.1|Austria|2015/08/31':9.3E-4,'MF984342.1|Austria|2015/08/31':7.43E-4)[&label=90]:5.57E-4,('MF984346.1|Austria|2016/08/31':0.00317,('MF984340.1|Austria|2015/08/31':7.43E-4,'KP109692.1|Austria|2014/08/31':5.58E-4)[&label=98]:0.001301)[&label=75]:4.0E-6)[&label=50]:4.0E-6,'MF984344.1|Austria|2015/08/31':0.001114)[&label=100]:0.001114,'JN858070.1|Italy|2011/09/15':0.003731)[&label=70]:4.0E-6,('MH244512.1|Slovakia|2013/08/31':0.002981,(('MW862073|Italy|2012/08/24':0.002234,('MW862074|Italy|2013/09/30':0.002247,((('KF823805.1|Italy|2013/08/15':6.1E-4,'KU573081.1|Italy|2013/08/31':0.001122)[&label=70]:4.0E-6,((('KF647250.1|Italy|2013/08/15':0.00189,'KF647251.1|Italy|2013/08/15':9.3E-4)[&label=59]:1.84E-4,('KF647248.1|Italy|2013/08/15':2.06E-4,'KF647252.1|Italy|2013/08/15':4.0E-6)[&label=61]:1.88E-4)[&label=12]:4.0E-6,('KF588365.1|Italy|2013/08/15':7.42E-4,'KP789960.1|Italy|2013/08/31':3.71E-4)[&label=29]:4.0E-6)[&label=9]:4.0E-6)[&label=57]:4.0E-6,'KF647249.1|Italy|2013/08/15':1.85E-4)[&label=100]:0.002792)[&label=60]:4.0E-6)[&label=63]:1.85E-4,(('MW862083|Italy|2015/11/02':0.003383,('MW862086|Italy|2016/09/28':0.002066,(('MW862094|Italy|2019/07/15':5.55E-4,'MW862099|Italy|2018/10/06':0.001864)[&label=99]:0.00112,('MW862098|Italy|2018/10/13':0.001115,((('ON032494|Italy|2021/09/10':5.9E-4,'ON813232|Italy|2021/09/10':1.83E-4)[&label=100]:0.003142,'MW862095|Italy|2019/09/19':0.001114)[&label=61]:4.0E-6,(('MW862100|Italy|2018/10/02':0.001114,'MW862105|Italy|2019/10/10':0.001114)[&label=38]:4.0E-6,'MW862097|Italy|2018/09/05':4.0E-6)[&label=32]:4.0E-6)[&label=93]:3.71E-4)[&label=97]:3.69E-4)[&label=100]:0.001494)[&label=100]:0.001679)[&label=84]:1.82E-4,(((((((((('ON032489|Italy|2020/09/01':9.89E-4,('ON032490|Italy|2021/08/19':8.02E-4,'ON032492|Italy|2021/08/26':0.001431)[&label=100]:0.001864)[&label=100]:0.001243,'MW862107|Italy|2019/08/26':3.71E-4)[&label=26]:4.0E-6,('MW862103|Italy|2019/09/12':5.56E-4,('MW862106|Italy|2019/09/26':4.0E-6,'MW862104|Italy|2019/09/26':4.0E-6)[&label=95]:4.0E-6)[&label=99]:9.28E-4)[&label=84]:3.71E-4,('ON813233|Italy|2022/09/12':0.002238,(('OP734239|Italy|2022/07/12':0.001116,('ON032495|Italy|2021/09/16':9.31E-4,('ON032497|Italy|2021/08/04':3.03E-4,('ON813230|Italy|2021/07/19':0.001154,('ON032493|Italy|2021/08/31':0.001119,'ON032491|Italy|2021/08/18':0.00149)[&label=48]:7.02E-4)[&label=20]:1.86E-4)[&label=72]:8.25E-4)[&label=72]:3.71E-4)[&label=84]:3.7E-4,('MW862108|Italy|2020/08/24':7.42E-4,('OP850027|Italy|2021/08/10':0.0017,('OP734240|Italy|2022/08/04':3.71E-4,('OP850025|Italy|2022/08/24':7.42E-4,'OP734241|Italy|2022/08/10':4.0E-6)[&label=100]:7.43E-4)[&label=95]:1.84E-4)[&label=88]:5.58E-4)[&label=12]:4.0E-6)[&label=100]:0.001118)[&label=93]:7.4E-4)[&label=33]:4.0E-6,('MW862096|Italy|2018/08/31':9.29E-4,'ON032488|Italy|2020/09/07':0.001674)[&label=92]:3.71E-4)[&label=72]:1.86E-4,'MW862089|Italy|2017/08/22':7.47E-4)[&label=100]:0.001487,'MW862082|Italy|2015/09/07':7.47E-4)[&label=26]:4.0E-6,('MW862078|Italy|2015/08/05':3.74E-4,('MT863560.1|France|2018/09/08':9.29E-4,'MT863561.1|France|2018/10/06':0.001863)[&label=94]:3.71E-4)[&label=75]:1.86E-4)[&label=97]:9.29E-4,'KP789957.1|Italy|2014/08/31':0.001116)[&label=78]:1.85E-4,((('KU573080.1|Italy|2013/08/31':5.57E-4,'KU573082.1|Italy|2013/08/31':5.57E-4)[&label=16]:4.0E-6,'KU573083.1|Italy|2013/08/31':7.48E-4)[&label=72]:3.71E-4,(('MW862079|Italy|2015/08/06':0.001496,'KP789958.1|Italy|2014/08/31':0.0013)[&label=8]:4.0E-6,((('KP789959.1|Italy|2014/08/31':0.001675,'KP789953.1|Italy|2014/08/31':7.43E-4)[&label=91]:3.71E-4,'KP789954.1|Italy|2014/08/31':7.42E-4)[&label=12]:4.0E-6,((('KP789956.1|Italy|2014/08/31':4.0E-6,(('MW862081|Italy|2015/08/12':7.48E-4,('MW862085|Italy|2015/08/12':4.0E-6,'MW862084|Italy|2015/08/12':4.0E-6)[&label=100]:3.74E-4)[&label=95]:1.87E-4,(('MN939557.1|Italy|2018/08/31':0.0013,(((('MW862090|Italy|2018/07/24':3.71E-4,'MW862093|Italy|2018/09/08':9.3E-4)[&label=97]:5.57E-4,'MW862088|Italy|2017/08/07':9.35E-4)[&label=21]:4.0E-6,('MW862087|Italy|2017/11/02':7.42E-4,'MW862101|Italy|2019/07/15':9.28E-4)[&label=14]:4.0E-6)[&label=2]:4.0E-6,'MW862091|Italy|2018/07/31':7.43E-4)[&label=19]:4.0E-6)[&label=98]:7.42E-4,(('MH910045.1|Germany|2018/08/15':5.57E-4,(('MN939561.1|Italy|2018/08/31':9.3E-4,'MN939562.1|Italy|2018/08/31':0.001302)[&label=65]:1.85E-4,('MW862102|Italy|2019/10/23':8.96E-4,('OP009517.1|Italy|2021/08/31':5.92E-4,('OP850026|Italy|2022/09/01':0.00205,'OP734244|Italy|2022/08/10':0.002762)[&label=58]:4.0E-6)[&label=55]:3.65E-4)[&label=99]:9.63E-4)[&label=38]:4.0E-6)[&label=93]:5.57E-4,(('MN939558.1|Italy|2016/08/31':3.72E-4,'MN939559.1|Italy|2016/08/31':3.71E-4)[&label=100]:7.43E-4,('MN939564.1|Italy|2016/08/31':4.0E-6,('MW862092|Italy|2018/08/13':0.001115,('MN939563.1|Italy|2018/08/31':0.001495,(((('ON813231|Italy|2021/07/22':0.001487,'OP850024|Italy|2022/08/04':0.002046)[&label=25]:4.0E-6,(('OP734243|Italy|2022/08/25':9.27E-4,'OQ204314|Italy|2022/11/18':9.49E-4)[&label=55]:1.86E-4,('OP734242|Italy|2022/08/17':3.71E-4,'OP734238|Italy|2022/07/25':1.85E-4)[&label=96]:7.42E-4)[&label=31]:4.0E-6)[&label=7]:4.0E-6,('OP850028|Italy|2021/08/20':4.0E-6,'OP850029|Italy|2022/10/24':1.87E-4)[&label=100]:0.001674)[&label=69]:3.7E-4,'OP009516.1|Italy|2021/08/31':9.33E-4)[&label=100]:0.002621)[&label=78]:1.77E-4)[&label=68]:1.85E-4)[&label=86]:3.71E-4)[&label=23]:4.0E-6)[&label=34]:4.0E-6)[&label=97]:5.57E-4)[&label=61]:1.85E-4)[&label=100]:0.001672,('KT207792.1|Italy|2014/08/18':1.85E-4,'KP789955.1|Italy|2014/08/31':7.43E-4)[&label=93]:5.57E-4)[&label=57]:4.0E-6,('KF823806.1|Italy|2013/10/15':5.57E-4,('MN939560.1|Italy|2016/08/31':7.43E-4,(('OM037671.1|Spain|2020/09/15':0.00354,(('OM037673.1|Spain|2020/09/15':7.43E-4,'OM037672.1|Spain|2020/09/15':5.57E-4)[&label=100]:0.001116,'OM037670.1|Spain|2017/09/15':3.71E-4)[&label=78]:4.0E-6)[&label=100]:0.001488,(('MW862080|Italy|2015/09/23':0.001309,'MW862076|Italy|2015/08/13':1.87E-4)[&label=36]:4.0E-6,('MW862075|Italy|2015/08/05':1.87E-4,'MW862077|Italy|2015/08/05':5.6E-4)[&label=70]:1.87E-4)[&label=100]:7.49E-4)[&label=60]:1.84E-4)[&label=15]:4.0E-6)[&label=52]:1.85E-4)[&label=3]:4.0E-6)[&label=2]:4.0E-6)[&label=11]:4.0E-6)[&label=50]:1.85E-4)[&label=99]:0.001302)[&label=80]:1.85E-4)[&label=100]:0.001674)[&label=21]:4.0E-6)[&label=16]:4.0E-6,((((('LR743434.1|Germany|2018/09/03':4.0E-6,'LR743437.1|Germany|2018/08/31':4.0E-6)[&label=100]:0.00205,'MF984341.1|Austria|2015/08/31':0.001117)[&label=100]:7.43E-4,('KM203862.1|Czech_Republic|2013/08/08':9.28E-4,('MZ964751.1|Germany|2021/08/15':0.002981,(('OK129335.1|Hungary|2017/08/31':0.001859,('OK239664.1|Hungary|2018/08/31':0.001673,('OK239668.1|Hungary|2018/08/31':0.001483,('OK129336.1|Hungary|2017/08/31':1.83E-4,('OK129334.1|Hungary|2017/08/31':0.001859,('OK239660.1|Hungary|2018/08/31':0.001674,'OK239671.1|Hungary|2018/08/31':9.29E-4)[&label=95]:3.71E-4)[&label=18]:4.0E-6)[&label=26]:1.85E-4)[&label=19]:4.0E-6)[&label=85]:5.59E-4)[&label=25]:4.0E-6,((('MN794935.1|Germany|2019/08/31':5.57E-4,('MW142226.1|Germany|2020/08/15':3.71E-4,'MW142224.1|Germany|2020/08/15':5.57E-4)[&label=44]:4.0E-6)[&label=92]:5.57E-4,(('LR743424.1|Germany|2019/08/04':0.001483,('MZ964753.1|Germany|2021/08/15':9.32E-4,(('LR743426.1|Germany|2019/08/31':4.0E-6,'LR743435.1|Germany|2019/08/20':1.86E-4)[&label=43]:4.0E-6,('MZ964752.1|Germany|2021/08/15':7.42E-4,('LR989888.1|Germany|2019/08/31':5.57E-4,'MN794939.1|Germany|2019/08/31':3.71E-4)[&label=43]:4.0E-6)[&label=49]:1.85E-4)[&label=32]:1.82E-4)[&label=74]:3.72E-4)[&label=12]:4.0E-6,(((('LR743442.1|Germany|2019/08/08':5.56E-4,('MN794937.1|Germany|2019/08/31':0.001115,'MN794938.1|Germany|2019/08/31':3.7E-4)[&label=96]:9.3E-4)[&label=12]:4.0E-6,('MW142227.1|Germany|2020/08/15':4.0E-6,(('MH924836.1|Germany|2018/08/22':3.69E-4,'MW142225.1|Germany|2020/08/15':0.001189)[&label=42]:4.0E-6,('MW142223.1|Germany|2020/08/15':0.001302,'LR743446.1|Germany|2019/08/19':9.3E-4)[&label=66]:1.84E-4)[&label=6]:4.0E-6)[&label=5]:4.0E-6)[&label=5]:4.0E-6,'LR743453.1|Germany|2019/08/14':5.56E-4)[&label=67]:1.85E-4,'LR743430.1|Germany|2019/08/08':0.0013)[&label=50]:1.86E-4)[&label=6]:4.0E-6)[&label=10]:4.0E-6,'LR743421.1|Germany|2019/08/30':0.001672)[&label=56]:1.85E-4)[&label=100]:0.001672)[&label=55]:4.0E-6)[&label=70]:1.85E-4)[&label=95]:5.6E-4,('LR743422.1|Germany|2019/08/26':0.003357,(('MH244510.1|Slovakia|2014/08/31':0.002232,('MF984348.1|Austria|2016/08/31':0.003189,'KM203861.1|Czech_Republic|2013/08/08':0.002065)[&label=64]:1.68E-4)[&label=9]:4.0E-6,(('KM659876.1|Austria|2014/08/31':4.0E-6,'KP109691.1|Austria|2014/08/31':1.84E-4)[&label=77]:5.57E-4,'MF984347.1|Austria|2016/08/31':0.00186)[&label=99]:9.31E-4)[&label=19]:4.0E-6)[&label=74]:1.84E-4)[&label=100]:0.001166,('KP780839.1|Austria|2011/03/14':0.005932,('KP780838.1|Austria|2009/09/16':0.002787,'KP780837.1|Austria|2008/08/29':0.001681)[&label=77]:2.37E-4)[&label=29]:3.77E-4)[&label=13]:1.36E-4)[&label=39]:3.71E-4,('KP780840.1|Austria|2014/08/21':0.012579,('OK129329.1|Hungary|2016/08/31':9.28E-4,(('MW751842.1|Serbia|2018/07/12':9.28E-4,(('OK129331.1|Hungary|2015/08/31':3.71E-4,('OK239662.1|Hungary|2018/08/31':0.001866,'OK239659.1|Hungary|2018/08/31':0.001489)[&label=100]:0.001301)[&label=27]:4.0E-6,'OK129332.1|Hungary|2015/08/31':7.42E-4)[&label=24]:4.0E-6)[&label=95]:5.57E-4,('MW751846.1|Serbia|2018/07/12':0.0013,'OK129330.1|Hungary|2016/08/31':5.57E-4)[&label=14]:4.0E-6)[&label=57]:4.0E-6)[&label=100]:0.003474)[&label=42]:6.8E-5)[&label=27]:1.86E-4)[&label=78]:3.71E-4,('KF179640.1|Austria|2008/08/31':0.001302,('MW751837.1|Serbia|2018/06/25':4.0E-6,'KC407673.1|Serbia|2012/08/31':3.71E-4)[&label=100]:0.005235)[&label=35]:4.0E-6)[&label=93]:3.73E-4)[&label=94]:1.79E-4,('KT359349.1|Hungary|2014/08/31':0.003746,'KC496016.1|Serbia|2010/08/31':0.001861)[&label=100]:0.003379)[&label=99]:6.4E-4,'MZ605382.4|Hungary|2004/08/31':0.00123)[&label=100]:0.023923,((('EF429197.1|South_Africa|1989/08/31':0.009952,'EF429198.1|South_Africa|2001/08/31':0.016645)[&label=97]:0.001005,('KY523178.1|Uganda|2009/06/15':0.008185,'JN393308.1|South_Africa|2008/04/15':0.012931)[&label=100]:0.005693)[&label=100]:0.00291,'MW383508.1|Namibia|2020/08/31':0.029483)[&label=100]:0.005599)[&label=100]:0.011956,('OP870461.1|Senegal|2002/08/31':0.001427,(('OP870458.1|Senegal|1990/08/31':0.003854,'OP870457.1|Senegal|1990/08/31':0.002114)[&label=60]:1.72E-4,(('OP870460.1|Senegal|2003/08/31':7.6E-4,(('JX041631.1|Ukraine|1980/08/31':9.3E-4,('ON813218|Senegal|2006/08/31':4.0E-6,'ON813219|Senegal|2006/08/31':4.0E-6)[&label=100]:1.86E-4)[&label=27]:4.0E-6,'ON813217|Senegal|2006/08/31':0.001677)[&label=85]:4.0E-6)[&label=26]:4.0E-6,('OP870459.1|Senegal|1998/08/31':7.62E-4,('OP846976.1|Senegal|1989/08/31':0.001521,('OP870456.1|Senegal|1989/08/31':9.49E-4,(('OP870453.1|Senegal|1989/08/31':0.001873,'OP870454.1|Senegal|1989/08/31':2.21E-4)[&label=59]:3.78E-4,'OP870455.1|Senegal|1990/08/31':6.03E-4)[&label=53]:3.49E-4)[&label=72]:4.0E-6)[&label=32]:1.9E-4)[&label=59]:3.79E-4)[&label=30]:4.0E-6)[&label=100]:4.82E-4)[&label=100]:0.005011)[&label=100]:0.007991,('HM147824.1|Democratic_Republic_of_the_Congo|1958/08/31':0.022611,(((('HM147822.1|South_Africa|1958/08/31':0.016099,'MW383507.1|Namibia|2020/08/31':0.045308)[&label=100]:0.071884,'GQ903680.1|Cyprus|1968/08/31':0.150534)[&label=100]:0.058217,'DQ176636.2|Madagascar|1978/08/31':0.501424)[&label=100]:0.066485,('HM147823.1|Madagascar|1988/08/31':4.0E-6,'KU978767.1|Madagascar|1988/02/12':1.83E-4)[&label=100]:0.089218)[&label=100]:0.028881)[&label=75]:0.001138)[&label=100]:0.005935,('KM052152.1|South_Africa|1977/08/31':0.024863,('DQ318020.1|Central_African_Republic|1993/01/01':0.021017,'EF429200.1|South_Africa|1958/08/31':0.005751)[&label=98]:0.002147)[&label=100]:0.004918)[&label=100]:0.021513,'MN238670.1|Iran|2018/08/31':4.29E-4);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="Arial";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="Arial";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Arial";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
